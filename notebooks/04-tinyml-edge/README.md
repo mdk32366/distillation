@@ -28,6 +28,10 @@ Compare float32 and int8 on size, accuracy and latency, and record the accuracy 
 ## AIoT framing
 Classic IoT shipped raw sensor data to the cloud, which cost bandwidth, battery and privacy. With TinyML **the sensor decides locally** and **only reports events** ("keyword heard", "abnormal vibration"). The result is less traffic, longer battery life, more privacy, and it keeps working offline.
 
+## See also
+- [Edge AI hardware tiers](../../docs/edge-ai-tiers.md): which chip tier a model fits on, with verified memory and power figures
+- [User-story catalog](../../docs/user-stories.md): candidate applications by domain, to pick a target project
+
 ## Reading list
 - Warden & Situnayake, *TinyML* (O'Reilly, 2019), book site: https://tinymlbook.com/
 - LiteRT (TensorFlow Lite) for Microcontrollers docs: https://ai.google.dev/edge/litert/microcontrollers/overview
