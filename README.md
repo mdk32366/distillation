@@ -9,6 +9,7 @@
 5. **TinyML / AIoT edge deployment**: distill a tiny student, int8-quantize/prune it, and deploy to an ESP32-S3 or Arduino Nano 33 BLE Sense with LiteRT for Microcontrollers (`notebooks/04-tinyml-edge/`, placeholder)
 
 ## Reference docs
+- [docs/model-types.md](docs/model-types.md): table of model types and how they're trained, plus how to miniaturize each one and its target hardware tier
 - [docs/edge-ai-tiers.md](docs/edge-ai-tiers.md): hardware tiers by memory and power (MCU → cloud), with verified sources
 - [docs/user-stories.md](docs/user-stories.md): user-story catalog across medical, mechanical, industrial, farming, aerospace, weather and consumer, with demand-analysis fields
 
